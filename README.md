@@ -26,3 +26,14 @@ There have special function call phase_1
 Extract the Phase_1 fuction using the "disassembly Phase_1" command
 
 ![Capture 6](https://user-images.githubusercontent.com/41334869/76191890-9a9d9600-619d-11ea-80b5-ea6ef09168af.PNG)
+ There have push memory address to stack
+ 0x80497c0, In 'Phase_1', There is a call to function 'strings_not_equal' with the first argument is 'input', the second argument is constant memory address 0x80497c0. after the call, in line 390, it's testing the return value, 'explode_bomb' is called if non-zero. So, we just type the same string as stored at 0x80497c0
+ 
+ ![Capture 7](https://user-images.githubusercontent.com/41334869/76194305-249c2d80-61a3-11ea-87ae-a9987b277d7b.PNG)
+ 
+ check founded secret with the sheldon 1
+ 
+ ![Capture 8](https://user-images.githubusercontent.com/41334869/76194478-7fce2000-61a3-11ea-98f0-76b3dd9f965f.PNG)
+
+ 
+
